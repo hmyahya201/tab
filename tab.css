@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero{
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.tab-links{
+  background-color: yellow;
+  overflow: hidden;
+}
+.tab-links button{
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  transition: 0.5s;
+  
+}
+ .tab-links button:hover{
+  background-color: aqua;
+  color: black;
+}
+
+.tab_content{
+  width: 100%;
+  display: none;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  transition: 0.3s;
+}
